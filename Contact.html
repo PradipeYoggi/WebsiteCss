@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="divSpacing">
+        <p class="titleText"><strong>Write to us</strong></p>
+        <input type="text" class="formElement" id="Name" name="Name" placeholder="Your Name">
+        <br>
+        <input type="text" class="formElement" id="Email" name="Email" placeholder="Your Email">
+        <br>
+        <textarea class="formElement" rows="12" column="50" id="Message" name="Message" placeholder="Your Message"></textarea>
+        <br>
+        <input type="submit" class="formElement" name="Submit" onclick="OnSubmit()">
+        <script>
+            function OnSubmit() {
+                alert(`${Name.value} thank you!\nWe will get back to you!`);
+            }
+        </script>        
+    </div>
+    <br>
+    <div class="divSpacing">
+        <table class="tableStyles">
+            <tr>
+                <td><a class="navStyle" href="index.html">Home</a></td>
+                <td><a class="navStyle" href="Products.html">Products</a></td>
+                <td><a class="navStyle" href="Contact.html">Contact Us</a></td>
+            </tr>
+        </table>        
+    </div>
+</body>
+</html>

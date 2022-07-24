@@ -1,0 +1,89 @@
+
+h1, .titleText, .labelText, .tableStyles, .navStyle, .formElement {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titleText {
+    color:#ff7518;
+}
+
+h1, h3 {
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    color:#ff7518;
+}
+
+.tableStyles {
+    padding: 0.5rem;
+}
+
+.navStyle {
+    padding: 0.5rem 4rem 0.5rem; /*top horizontal bottom*/
+    text-align: center;
+    border: solid transparent 1px; /*to accomodate for the hover*/
+}
+
+.navStyle:hover {
+    border: dotted #ff7518 1px;
+    border-radius: 5px;
+    color:#ff7518;
+}
+
+.productImage {
+    display:table-cell;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.productImage:hover {
+    background-color: rgba(240, 240, 240, .9);
+    overflow: hidden;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#Message {
+    width:50%;
+}
+
+.formElement {
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 0.5rem;
+    margin: 2px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+body {
+    min-height:95vh;
+    max-height:95vh;
+    max-width: 95vw;
+    display: grid;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.divSpacing {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    display: grid;
+    min-height:95vh;
+    max-height:95vh;
+    justify-content:flex-start;
+    padding: 5px;
+}
